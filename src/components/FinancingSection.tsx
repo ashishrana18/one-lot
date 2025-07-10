@@ -7,7 +7,7 @@ export default function FinancingSection() {
   return (
     <section className="px-4 md:px-8 lg:px-16 py-8 bg-gray-50">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Image: put second on mobile, first on lg */}
+        {/* Image */}
         <div className="w-full rounded-xl overflow-hidden shadow-lg order-2 lg:order-1">
           <Image
             src="/image.png"
@@ -19,7 +19,7 @@ export default function FinancingSection() {
           />
         </div>
 
-        {/* Text: put first on mobile, second on lg */}
+        {/* Text */}
         <div className="order-1 lg:order-2">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-2">
             Car Financing
@@ -28,9 +28,9 @@ export default function FinancingSection() {
             Dealer Loans
           </h3>
           <p className="text-gray-600 mb-4">
-            OneLot’s working capital loans allow car dealers to buy more cars
-            and capitalize on purchase opportunities you would otherwise have
-            missed. We transfer the money to your account within 6 hours.
+            OneLot&apos;s working capital loans allow car dealers to buy more
+            cars and capitalize on purchase opportunities you would otherwise
+            have missed. We transfer the money to your account within 6 hours.
           </p>
           <ul className="space-y-3 mb-6 border-t border-b border-gray-300 p-6">
             {[
@@ -44,7 +44,10 @@ export default function FinancingSection() {
               </li>
             ))}
           </ul>
-          <p className="lg:mb-6 mb-8  text-lg text-gray-400">Use OneLot's Financing solution today, grow the number of cars in your lot and increase your profits.</p>
+          <p className="lg:mb-6 mb-8 text-lg text-gray-400">
+            Use OneLot&apos;s Financing solution today, grow the number of cars
+            in your lot and increase your profits.
+          </p>
           <Link
             href="/"
             className="inline-block px-6 py-3 bg-purple-900 text-white rounded-lg hover:bg-primary/90 transition"
