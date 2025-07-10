@@ -9,6 +9,7 @@ import FAQs from "@/components/FAQs";
 import WhyChooseUs from "@/components/ChooseUs";
 import GetStartedSection from "@/components/GetStartedSection";
 import DealershipSystemSection from "@/components/DealershipSystemSection";
+import Carousel from "@/components/Carousel";
 
 export default function HomePage() {
   return (
@@ -21,6 +22,7 @@ export default function HomePage() {
         <FinancingSection />
         <DealershipSystemSection />
         <WhyChooseUs />
+        <Carousel />
         <FAQs />
         <GetStartedSection />
       </main>
