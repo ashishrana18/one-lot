@@ -33,9 +33,11 @@ export default function Footer() {
           {/* Language Dropdown */}
           <div className="flex items-center gap-1 text-sm">
             <span>ENG</span>
-            <img
+            <Image
               src="https://flagcdn.com/us.svg"
               alt="US Flag"
+              height={16}
+              width={24}
               className="h-4 w-6 object-cover"
             />
             <span className="text-xl">▾</span>
